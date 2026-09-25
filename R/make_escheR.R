@@ -243,14 +243,8 @@ make_escheR.SpatialExperiment <- function(
     ylab("") +
     coord_fixed(ratio = 1) +
     # Remove random lines and axis in the plot
-    theme_void() + 
-    theme(
-      panel.border = element_rect(
-        colour = "black",
-        fill = NA,
-        linewidth = 0.5
-  )
-)
+      theme_escheR()
+  
   #+
   # theme_set(theme_bw(base_size = 20)) +
   # theme(
