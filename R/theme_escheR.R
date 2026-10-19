@@ -1,13 +1,11 @@
-#' Customize the appearance of escheR plots
+#' Customize plots 
 #'
-#' @param border Logical. Whether to display a border around the plotting panel.
-#' @param border_colour Character. Colour of the panel border.
-#' @param border_width Numeric. Width of the panel border.
+#' border - choose whether to display a border around the plotting panel 
+#' border_colour - choose colour of the panel border.
+#' border_width - choose Width of the panel border.
 #'
 #' @return A ggplot2 theme object.
 #'
-#' @importFrom ggplot2 theme_void theme element_rect
-#' @export
 #'
 #' @examples
 #' theme_escheR()
